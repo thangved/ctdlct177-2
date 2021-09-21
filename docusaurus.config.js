@@ -1,5 +1,5 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const darkCodeTheme = require('prism-react-renderer/themes/oceanicNext')
 const path = require('path')
 
 	// With JSDoc @type annotations, IDEs can provide config autocompletion
@@ -113,7 +113,7 @@ const path = require('path')
 							],
 						},
 						{
-							title: 'Cộng đồng',
+							title: 'Kết nối',
 							items: [
 								{
 									label: 'Facebook',
@@ -130,12 +130,16 @@ const path = require('path')
 							items: [
 								{
 									label: 'Trang web',
-									to: 'https://minhthangdev.pw',
+									href: 'https://minhthangdev.pw',
 								},
 								{
 									label: 'GitHub',
 									href: 'https://github.com/thangved/',
 								},
+								{
+									label: 'Donate',
+									href: 'https://www.paypal.com/paypalme/minhthangpay'
+								}
 							],
 						},
 					],
