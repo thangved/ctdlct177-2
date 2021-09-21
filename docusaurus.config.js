@@ -14,8 +14,14 @@ const path = require('path')
 		favicon: 'img/favicon.ico',
 		organizationName: 'thangved', // Usually your GitHub org/user name.
 		projectName: 'ctdlct177', // Usually your repo name.
+		i18n: {
+			defaultLocale: 'vn',
+			locales: ['vn'],
+
+		},
 		plugins: [
 			'docusaurus-plugin-2dlive',
+			// path.resolve(__dirname, './plugins/2dlive'),
 		],
 
 		presets: [
@@ -44,6 +50,10 @@ const path = require('path')
 		themeConfig:
 			/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 			({
+				colorMode: {
+					defaultMode: 'light',
+					disableSwitch: true
+				},
 				navbar: {
 					title: 'CTDLCT177',
 					logo: {
@@ -74,23 +84,11 @@ const path = require('path')
 							items: [
 								{
 									label: 'Danh sách đặc',
-									href: 'adts/array-list/intro',
+									href: '/docs/adts-arraylist/intro',
 								},
 								{
 									label: 'Danh sách liên kết',
-									href: 'adts/linked-list/intro',
-								},
-								{
-									label: 'Ngăn xếp',
-									href: 'adts/stack/intro',
-								},
-								{
-									label: 'Hàng đợi',
-									href: 'adts/queue/intro',
-								},
-								{
-									label: 'Cây',
-									href: 'adts/tree/intro',
+									href: '/docs/adts-pointerlist/intro',
 								},
 							],
 						},

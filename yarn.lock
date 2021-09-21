@@ -2655,9 +2655,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001252, caniuse-lite@^1.0.30001254:
-  version "1.0.30001258"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001258.tgz#b604eed80cc54a578e4bf5a02ae3ed49f869d252"
-  integrity sha512-RBByOG6xWXUp0CR2/WU2amXz3stjKpSl5J1xU49F1n2OxD//uBZO4wCKUiG+QMGf7CHGfDDcqoKriomoGVxTeA==
+  version "1.0.30001259"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001259.tgz#ae21691d3da9c4be6144403ac40f71d9f6efd790"
+  integrity sha512-V7mQTFhjITxuk9zBpI6nYsiTXhcPe05l+364nZjK7MFK/E7ibvYBSAXr4YcA6oPR8j3ZLM/LN+lUqUVAQEUZFg==
 
 ccount@^1.0.0, ccount@^1.0.3:
   version "1.1.0"
@@ -3505,10 +3505,10 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docusaurus-plugin-2dlive@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/docusaurus-plugin-2dlive/-/docusaurus-plugin-2dlive-1.0.1.tgz#80d9f1936acf16bde969a19f4e2d7ef11d8d92a7"
-  integrity sha512-qZlSYcOqUj1nLZTuRpOTkTbGcDRSXoQTl5uZlbGHTU6y9YRfHCdpDxQuw/uaKRCop3yfWGth03qrwYu+sT1xsg==
+docusaurus-plugin-2dlive@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-2dlive/-/docusaurus-plugin-2dlive-1.0.4.tgz#013309461319f7b1b0b62cfda41ae65c6e912ae8"
+  integrity sha512-OJC4WVSRxEbSWT/8wvGhAMT/IKcCP0ycz7/U7YG1u4Hpm08YW0MdkTR7shcwJzsgS+tjXDRfkRKCzXd0B240Og==
   dependencies:
     antd "^4.16.13"
 

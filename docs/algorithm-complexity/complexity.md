@@ -50,6 +50,6 @@ void sort(int A[])
 
 :::danger
 
-[Click me 🔥](../assets/pdf/vidu.pdf)
+[Click me 🔥](/pdf/vidu.pdf)
 
 :::

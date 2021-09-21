@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tổng quan
+# TỔNG QUAN
 
 :::danger Thuật ngữ
 
