@@ -3505,10 +3505,10 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docusaurus-plugin-2dlive@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/docusaurus-plugin-2dlive/-/docusaurus-plugin-2dlive-1.0.4.tgz#013309461319f7b1b0b62cfda41ae65c6e912ae8"
-  integrity sha512-OJC4WVSRxEbSWT/8wvGhAMT/IKcCP0ycz7/U7YG1u4Hpm08YW0MdkTR7shcwJzsgS+tjXDRfkRKCzXd0B240Og==
+docusaurus-plugin-2dlive@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-2dlive/-/docusaurus-plugin-2dlive-1.0.5.tgz#7acdac7d1fc499a21dd927aa96f57422d47f7774"
+  integrity sha512-fPGIJRyTHbN5jL/A4LWdwZl9HJ6ei/WlsFfEZkeRWZEmhe1HNAz483fW0gSh8OX/kn9MYsKvLoG4/GNygGdnCg==
   dependencies:
     antd "^4.16.13"
 

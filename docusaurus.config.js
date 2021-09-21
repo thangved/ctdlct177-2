@@ -20,8 +20,8 @@ const path = require('path')
 
 		},
 		plugins: [
-			'docusaurus-plugin-2dlive',
-			// path.resolve(__dirname, './plugins/2dlive'),
+			// 'docusaurus-plugin-2dlive',
+			path.resolve(__dirname, './plugins/2dlive'),
 		],
 
 		presets: [
