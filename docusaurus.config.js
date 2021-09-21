@@ -141,7 +141,7 @@ const path = require('path')
 					copyright: `Copyright © ${new Date().getFullYear()} WS, Minh Thắng`,
 				},
 				prism: {
-					theme: lightCodeTheme,
+					theme: darkCodeTheme,
 					darkTheme: darkCodeTheme,
 				},
 			}),
