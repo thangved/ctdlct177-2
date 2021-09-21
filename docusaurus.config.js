@@ -15,8 +15,8 @@ const path = require('path')
 		organizationName: 'thangved', // Usually your GitHub org/user name.
 		projectName: 'ctdlct177', // Usually your repo name.
 		i18n: {
-			defaultLocale: 'vn',
-			locales: ['vn'],
+			defaultLocale: 'vi-VN',
+			locales: ['vi-VN'],
 
 		},
 		plugins: [
