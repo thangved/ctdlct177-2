@@ -39,6 +39,7 @@ int main()
 
     copyEvenNumbers(list1, &list2);
     printList(list2);
+    return 0;
 }
 ```
 
@@ -61,7 +62,8 @@ int main()
     List list;
     readList(&list);
     printList(list);
-    p[link](./2.c)
+    return 0;
+}
 ```
 
 ### BÀI 3
@@ -89,6 +91,7 @@ int main()
     printList(list1);
     printList(list2);
     printList(list3);
+    return 0;
 }
 ```
 

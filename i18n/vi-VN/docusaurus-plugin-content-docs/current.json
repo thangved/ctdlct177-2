@@ -1,18 +1,22 @@
 {
-	"version.label": {
-		"message": "Next",
-		"description": "The label for version current"
-	},
-	"sidebar.tutorialSidebar.category.Độ phức tạp của giải thuật": {
-		"message": "Độ phức tạp của giải thuật",
-		"description": "The label for category Độ phức tạp của giải thuật in sidebar tutorialSidebar"
-	},
-	"sidebar.tutorialSidebar.category.Danh sách đặc": {
-		"message": "Danh sách đặc",
-		"description": "The label for category Danh sách đặc in sidebar tutorialSidebar"
-	},
-	"sidebar.tutorialSidebar.category.Danh sách liên kết": {
-		"message": "Danh sách liên kết",
-		"description": "The label for category Danh sách liên kết in sidebar tutorialSidebar"
-	}
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Độ phức tạp của giải thuật": {
+    "message": "Độ phức tạp của giải thuật",
+    "description": "The label for category Độ phức tạp của giải thuật in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Danh sách đặc": {
+    "message": "Danh sách đặc",
+    "description": "The label for category Danh sách đặc in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Danh sách liên kết": {
+    "message": "Danh sách liên kết",
+    "description": "The label for category Danh sách liên kết in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Ngăn xếp": {
+    "message": "Ngăn xếp",
+    "description": "The label for category Ngăn xếp in sidebar tutorialSidebar"
+  }
 }
