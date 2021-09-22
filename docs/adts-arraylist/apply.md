@@ -21,7 +21,7 @@ Khai báo sử dụng thư viện AListLib.c
 
 Định nghĩa các hàm nhập, hiển thị, liệt kê các số nguyên lẻ
 
-Định nghĩa hàm chép các số nguyên chẵn sang danh sách kết quả  
+Định nghĩa hàm chép các số nguyên chẵn sang danh sách kết quả
 
 Khai báo biến và gọi thực thi các hàm trên trong hàm main()
 :::
@@ -47,7 +47,7 @@ int main()
 :::info
 Khai báo sử dụng thư viện AListLib.c
 
-Định nghĩa các hàm nhập, hiển thị, trung bình cộng các phần tử  
+Định nghĩa các hàm nhập, hiển thị, trung bình cộng các phần tử
 
 Khai báo và gọi thực thi các hàm trên trong hàm main()
 :::
@@ -71,7 +71,7 @@ Khai báo sử dụng thư viện AListLib.c
 
 Định nghĩa các hàm nhập tập hợp và hiển thị danh sách
 
-Định nghĩa hàm tìm tập hợp hợp của 2 tập hợp  
+Định nghĩa hàm tìm tập hợp hợp của 2 tập hợp
 
 Gọi thực thi các hàm trên trong hàm main()
 :::
@@ -99,7 +99,7 @@ Khai báo sử dụng thư viện AListLib.c
 
 Định nghĩa các hàm nhập và hiển thị danh sách
 
-Định nghĩa hàm xóa tất cả phần tử x trong danh sách  
+Định nghĩa hàm xóa tất cả phần tử x trong danh sách
 
 Khai báo biến và gọi thực thi các hàm trên trong hàm main()
 :::
@@ -130,7 +130,7 @@ Khai báo sử dụng thư viện AListLib.c
 
 Định nghĩa các hàm nhập tập hợp và hiển thị danh sách
 
-Định nghĩa hàm tìm tập hợp hiệu của 2 tập hợp  
+Định nghĩa hàm tìm tập hợp hiệu của 2 tập hợp
 
 Gọi thực thi các hàm trên trong hàm main()
 :::info
@@ -161,9 +161,9 @@ int main()
 :::info
 include "AListLib.c"
 
-Định nghĩa các hàm nhập và hiển thị danh sách  
+Định nghĩa các hàm nhập và hiển thị danh sách
 
-Định nghĩa hàm xóa phần tử x được tìm thấy đầu tiên trong danh sách  
+Định nghĩa hàm xóa phần tử x được tìm thấy đầu tiên trong danh sách
 
 Viết hàm main
 :::

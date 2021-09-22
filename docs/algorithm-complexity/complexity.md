@@ -12,7 +12,7 @@ sidebar_position: 3
 
 :::
 
-*Ví dụ:*
+_Ví dụ:_
 
 > Tính độ phức tạp của thuật toán `Sắp xếp sau:`
 
@@ -41,7 +41,7 @@ void sort(int A[])
 | Hằng          |                          | O(1)                  |
 | Logarit       | log(n)                   | O(log(n))             |
 | Tuyến tính    | n                        | O(n)                  |
-|               | n*log(n)                 | O(n*log(n))           |
+|               | n\*log(n)                | O(n\*log(n))          |
 | Bậc hai       | n^2                      | O(n^2)                |
 | Khối          | n^3                      | O(n^3)                |
 | Mũ            | 2^n, n!, n^k             | O(2^n), O(n!), O(n^k) |

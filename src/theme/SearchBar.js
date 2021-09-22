@@ -8,4 +8,4 @@
 // If you swizzled this file, it is your responsibility to provide an implementation
 // Tip: swizzle the SearchBar from the Algolia theme for inspiration:
 // npm run swizzle @docusaurus/theme-search-algolia SearchBar
-export {default} from '@docusaurus/Noop';
+export { default } from '@docusaurus/Noop';

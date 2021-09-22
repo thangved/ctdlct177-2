@@ -17,7 +17,7 @@ Mình chỉ viết hàm main để các bạn có thể mườn tượng ra các
 ### BÀI 1
 
 :::info
-```#include "PListLib.c"```
+`#include "PListLib.c"`
 
 Định nghĩa các hàm nhập tập hợp và hiển thị danh sách
 
@@ -44,7 +44,7 @@ int main()
 ### BÀI 2
 
 :::info
-```#include "PListLib.c"```
+`#include "PListLib.c"`
 
 Định nghĩa các hàm nhập tập hợp và hiển thị danh sách
 
@@ -71,7 +71,7 @@ int main()
 ### BÀI 3
 
 :::info
-```#include "PListLib.c"```
+`#include "PListLib.c"`
 
 Định nghĩa các hàm nhập tập hợp và hiển thị danh sách
 
@@ -98,7 +98,7 @@ int main()
 ### BÀI 4
 
 :::info
-```#include "PListLib.c"```
+`#include "PListLib.c"`
 
 Định nghĩa các hàm nhập và hiển thị danh sách
 
@@ -127,7 +127,7 @@ int main()
 ### BÀI 5
 
 :::info
-```#include "PListLib.c"```
+`#include "PListLib.c"`
 
 Định nghĩa các hàm nhập, hiển thị, liệt kê các số nguyên lẻ
 
@@ -155,7 +155,7 @@ int main()
 ### BÀI 6
 
 :::info
-```#include "PListLib.c"```
+`#include "PListLib.c"`
 
 Định nghĩa các hàm nhập và hiển thị danh sách
 
@@ -178,7 +178,7 @@ int main()
 ### BÀI 7
 
 :::info
-```#include "PListLib.c"```
+`#include "PListLib.c"`
 
 Định nghĩa các hàm nhập và hiển thị danh sách
 
@@ -207,7 +207,7 @@ int main()
 ### BÀI 8
 
 :::info
-```#include "PListLib.c"```
+`#include "PListLib.c"`
 
 Định nghĩa các hàm nhập, hiển thị, trung bình cộng các phần tử
 
@@ -235,7 +235,7 @@ int main()
 ### BÀI 9
 
 :::info
-```#include "PListLib.c"```
+`#include "PListLib.c"`
 
 Định nghĩa các hàm nhập, hiển thị, trung bình cộng các phần tử
 
@@ -259,7 +259,7 @@ int main()
 ### BÀI 10
 
 :::info
-```#include "PListLib.c"```
+`#include "PListLib.c"`
 
 Định nghĩa các hàm nhập, hiển thị và sắp xếp danh sách
 
