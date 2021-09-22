@@ -178,5 +178,13 @@
 	"theme.tags.tagsPageTitle": {
 		"message": "Thẻ",
 		"description": "The title of the tag list page"
+	},
+	"theme.Playground.result": {
+		"message": "Kết quả",
+		"description": "The result label of the live codeblocks"
+	},
+	"theme.Playground.liveEditor": {
+		"message": "Trình soạn thảo trực tuyến",
+		"description": "The live editor label of the live codeblocks"
 	}
 }

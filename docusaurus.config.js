@@ -14,9 +14,7 @@ module.exports = {
 	favicon: 'img/favicon.ico',
 	organizationName: 'thangved', // Usually your GitHub org/user name.
 	projectName: 'ctdlct177', // Usually your repo name.
-	themes: [
-		'@docusaurus/theme-live-codeblock',
-	],
+	themes: ['@docusaurus/theme-live-codeblock'],
 	i18n: {
 		defaultLocale: 'vi-VN',
 		locales: ['vi-VN'],
