@@ -1,8 +1,7 @@
 {
 	"name": "ctdlct-177-2",
 	"version": "0.0.0",
-	"private": false,
-	"license": "MIT",
+	"private": true,
 	"scripts": {
 		"docusaurus": "docusaurus",
 		"start": "docusaurus start",
