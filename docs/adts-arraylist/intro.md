@@ -31,7 +31,7 @@ Số lượng phần tử tối đa của danh sách.
 Kiểu của phần tử trong danh sách.
 
 ```c
-typedef <typeElementType;
+typedef <type> ElementType;
 ```
 
 ### Position

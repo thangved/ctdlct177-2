@@ -8,7 +8,9 @@ sidebar_position: 2
 
 ### deleteList
 
-> Xóa phần tử tại vị trí p
+:::info Yêu cầu
+Xóa phần tử tại vị trí p
+:::
 
 ```c
 void deleteList(Position p, List *pL)
@@ -28,7 +30,9 @@ void deleteList(Position p, List *pL)
 
 ### emptyList
 
-> Kiểm tra danh sách rỗng.
+:::info Yêu cầu
+Kiểm tra danh sách rỗng.
+:::
 
 ```c
 int emptyList(List L)
@@ -39,7 +43,9 @@ int emptyList(List L)
 
 ### endList
 
-> Trả về vị trí sau vị trí cuối của danh sách.
+:::info Yêu cầu
+Trả về vị trí sau vị trí cuối của danh sách.
+:::
 
 ```c
 Position endList(List L)
@@ -50,7 +56,9 @@ Position endList(List L)
 
 ### fullList
 
-> Kiểm tra danh sách đầy.
+:::info Yêu cầu
+Kiểm tra danh sách đầy.
+:::
 
 ```c
 int fullList(List L)
@@ -61,7 +69,9 @@ int fullList(List L)
 
 ### first
 
-> Trả về `vị trí đầu tiên` của danh sách.
+:::info Yêu cầu
+Trả về `vị trí đầu tiên` của danh sách.
+:::
 
 ```c
 Position first(List L)
@@ -72,7 +82,9 @@ Position first(List L)
 
 ### insertList
 
-> Chèn thêm 1 phần tử vào vị trí `p` của danh sách.
+:::info Yêu cầu
+Chèn thêm 1 phần tử vào vị trí `p` của danh sách.
+:::
 
 ```c
 void insertList(ElementType x, Position p, List *pL)
@@ -80,7 +92,9 @@ void insertList(ElementType x, Position p, List *pL)
     if (fullList(*pL))
         return;
 
-    if (p < first(*pL) || p > endList(*pL) + 1)
+:::info Yêu cầu
+    if (p < first(*pL) || p endList(*pL) + 1)
+    :::
         return;
 
     for (Position i = pL->Last; i >= p; i++)
@@ -93,7 +107,9 @@ void insertList(ElementType x, Position p, List *pL)
 
 ### locate
 
-> Trả về `vị trí đầu tiên` mà `x` xuất hiện trong danh sách.
+:::info Yêu cầu
+Trả về `vị trí đầu tiên` mà `x` xuất hiện trong danh sách.
+:::
 
 ```c
 Position locate(ElementType x, List L)
@@ -107,7 +123,9 @@ Position locate(ElementType x, List L)
 
 ### makenullList
 
-> Khởi tạo danh sách rỗng
+:::info Yêu cầu
+Khởi tạo danh sách rỗng
+:::
 
 ```c
 void makenullList(List *pL)
@@ -118,12 +136,16 @@ void makenullList(List *pL)
 
 ### next
 
-> Trả về vị trí sau `p` trong danh sách.
+:::info Yêu cầu
+Trả về vị trí sau `p` trong danh sách.
+:::
 
 ```c
 Position next(Position p, List L)
 {
-    if (p > L.Last)
+    :::info Yêu cầu
+    if (p L.Last)
+    :::
         return 0;
     return p + 1;
 }
@@ -131,7 +153,9 @@ Position next(Position p, List L)
 
 ### previous
 
-> Trả về vị trí trước `p` trong danh sách.
+:::info Yêu cầu
+Trả về vị trí trước `p` trong danh sách.
+:::
 
 ```c
 Position previous(Position p, List L)
@@ -144,12 +168,16 @@ Position previous(Position p, List L)
 
 ### retrieve
 
-> Trả về giá trị của danh sách tại `p`.
+:::info Yêu cầu
+Trả về giá trị của danh sách tại `p`.
+:::
 
 ```c
 ElementType retrieve(Position p, List L)
 {
-    if (!(p > L.Last))
+    :::info Yêu cầu
+    if (!(p L.Last))
+    :::
         return L.Elements[p - 1];
     return 0;
 }
@@ -159,7 +187,9 @@ ElementType retrieve(Position p, List L)
 
 ### copyEvenNumbers
 
-> Chép các số chẵn trong danh sách `L1` vào `pL2`.
+:::info Yêu cầu
+Chép các số chẵn trong danh sách `L1` vào `pL2`.
+:::
 
 ```c
 void copyEvenNumbers(List L1, List *pL2)
@@ -176,7 +206,9 @@ void copyEvenNumbers(List L1, List *pL2)
 
 ### countList
 
-> Đếm số lượng phần tử `x` trong danh sách.
+:::info Yêu cầu
+Đếm số lượng phần tử `x` trong danh sách.
+:::
 
 ```c
 int countList(ElementType x, List L)
@@ -191,7 +223,9 @@ int countList(ElementType x, List L)
 
 ### difference
 
-> Tính tập hiệu của `L1`, `L2` và lưu vào `pL`.
+:::info Yêu cầu
+Tính tập hiệu của `L1`, `L2` và lưu vào `pL`.
+:::
 
 ```c
 void difference(List L1, List L2, List *pL)
@@ -205,7 +239,9 @@ void difference(List L1, List L2, List *pL)
 
 ### erase
 
-> Xóa phần tử đầu tiên có giá trị `x` trong danh sách.
+:::info Yêu cầu
+Xóa phần tử đầu tiên có giá trị `x` trong danh sách.
+:::
 
 ```c
 void erase(ElementType x, List *pL)
@@ -216,7 +252,9 @@ void erase(ElementType x, List *pL)
 
 ### getAvg
 
-> Tính trung bình cộng của các phần tử trong danh sách.
+:::info Yêu cầu
+Tính trung bình cộng của các phần tử trong danh sách.
+:::
 
 ```c
 float getAvg(List L)
@@ -232,7 +270,9 @@ float getAvg(List L)
 
 ### insertSet
 
-> Thêm phần tử vào cuối danh sách.
+:::info Yêu cầu
+Thêm phần tử vào cuối danh sách.
+:::
 
 ```c
 void insertSet(ElementType x, List *pL)
@@ -244,7 +284,9 @@ void insertSet(ElementType x, List *pL)
 
 ### intersection
 
-> Tìm tập giao của 2 tập hợp.
+:::info Yêu cầu
+Tìm tập giao của 2 tập hợp.
+:::
 
 ```c
 void intersection(List L1, List L2, List *pL)
@@ -258,14 +300,18 @@ void intersection(List L1, List L2, List *pL)
 
 ### minList
 
-> Trả về giá trị phần tử nhỏ nhất có trong danh sách.
+:::info Yêu cầu
+Trả về giá trị phần tử nhỏ nhất có trong danh sách.
+:::
 
 ```c
 ElementType minList(List L)
 {
     ElementType min = L.Elements[0];
-    for (int i = 0; i < L.Last; i++)
-        if (min > L.Elements[i])
+    for (int i =
+    :::info Yêu cầu 0; i < L.Last; i++)
+        if (min L.Elements[i])
+        :::
             min = L.Elements[i];
     return min;
 }
@@ -273,7 +319,9 @@ ElementType minList(List L)
 
 ### maxList
 
-> Trả về phần tử có giá trị lớn nhất trong danh sách.
+:::info Yêu cầu
+Trả về phần tử có giá trị lớn nhất trong danh sách.
+:::
 
 ```c
 ElementType maxList(List L)
@@ -288,7 +336,9 @@ ElementType maxList(List L)
 
 ### member
 
-> Kiểm tra một phần tử có trong danh sách.
+:::info Yêu cầu
+Kiểm tra một phần tử có trong danh sách.
+:::
 
 ```c
 int member(ElementType x, List L)
@@ -302,7 +352,9 @@ int member(ElementType x, List L)
 
 ### normalize
 
-> Chuyển danh sách thành tập hợp.
+:::info Yêu cầu
+Chuyển danh sách thành tập hợp.
+:::
 
 ```c
 void normalize(List *pL)
@@ -319,7 +371,9 @@ void normalize(List *pL)
 
 ### printList
 
-> In ra các phần tử trong danh sách.
+:::info Yêu cầu
+In ra các phần tử trong danh sách.
+:::
 
 ```c
 void printList(List L)
@@ -333,7 +387,9 @@ void printList(List L)
 
 ### printOddNumbers
 
-> In ra các số lẻ trong danh sách.
+:::info Yêu cầu
+In ra các số lẻ trong danh sách.
+:::
 
 ```c
 void printOddNumbers(List L)
@@ -347,7 +403,9 @@ void printOddNumbers(List L)
 
 ### removeAll
 
-> Xóa tất cả các phần tử có giá trị `x` trong danh sách.
+:::info Yêu cầu
+Xóa tất cả các phần tử có giá trị `x` trong danh sách.
+:::
 
 ```c
 void removeAll(ElementType x, List *pL)
@@ -359,7 +417,9 @@ void removeAll(ElementType x, List *pL)
 
 ### readList
 
-> Nhập danh sách từ bàn phím.
+:::info Yêu cầu
+Nhập danh sách từ bàn phím.
+:::
 
 ```c
 void readList(List *pL)
@@ -375,7 +435,9 @@ void readList(List *pL)
 
 ### readSet
 
-> Nhập tập hợp từ bàn phím
+:::info Yêu cầu
+Nhập tập hợp từ bàn phím
+:::
 
 ```c
 void readSet(List *pL)
@@ -387,7 +449,9 @@ void readSet(List *pL)
 
 ### sumList
 
-> Trả về tổng các phần tử trong danh sách.
+:::info Yêu cầu
+Trả về tổng các phần tử trong danh sách.
+:::
 
 ```c
 ElementType sumList(List L)
@@ -401,14 +465,18 @@ ElementType sumList(List L)
 
 ### sort
 
-> Sắp xếp các phần tử từ bé đến lớn.
+:::info Yêu cầu
+Sắp xếp các phần tử từ bé đến lớn.
+:::
 
 ```c
 void sort(List *pL)
 {
     for (int i = 0; i < pL->Last; i++)
-        for (int j = i + 1; j < pL->Last; j++)
-            if (pL->Elements[i] > pL->Elements[j])
+        for (int j = i + 1; j < 
+        :::info Yêu cầupL->Last; j++)
+            if (pL->Elements[i] pL->Elements[j])
+            :::
             {
                 ElementType Temp = pL->Elements[i];
                 pL->Elements[i] = pL->Elements[j];
@@ -419,7 +487,9 @@ void sort(List *pL)
 
 ### unionSet
 
-> Tính tập hợp của hai tập.
+:::info Yêu cầu
+Tính tập hợp của hai tập.
+:::
 
 ```c
 void unionSet(List L1, List L2, List *pL)
