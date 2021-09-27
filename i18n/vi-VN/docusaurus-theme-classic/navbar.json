@@ -1,30 +1,30 @@
 {
-  "title": {
-    "message": "CTDLCT177",
-    "description": "The title in the navbar"
-  },
-  "item.label.Tài liệu": {
-    "message": "Tài liệu",
-    "description": "Navbar item with label Tài liệu"
-  },
-  "item.label.Độ phức tạp": {
-    "message": "Độ phức tạp",
-    "description": "Navbar item with label Độ phức tạp"
-  },
-  "item.label.ADTs": {
-    "message": "ADTs",
-    "description": "Navbar item with label ADTs"
-  },
-  "item.label.GitHub": {
-    "message": "GitHub",
-    "description": "Navbar item with label GitHub"
-  },
-  "item.label.Danh sách đặc": {
-    "message": "Danh sách đặc",
-    "description": "Navbar item with label Danh sách đặc"
-  },
-  "item.label.Danh sách liên kết": {
-    "message": "Danh sách liên kết",
-    "description": "Navbar item with label Danh sách liên kết"
-  }
+	"title": {
+		"message": "CTDLCT177",
+		"description": "The title in the navbar"
+	},
+	"item.label.Tài liệu": {
+		"message": "Tài liệu",
+		"description": "Navbar item with label Tài liệu"
+	},
+	"item.label.Độ phức tạp": {
+		"message": "Độ phức tạp",
+		"description": "Navbar item with label Độ phức tạp"
+	},
+	"item.label.ADTs": {
+		"message": "ADTs",
+		"description": "Navbar item with label ADTs"
+	},
+	"item.label.GitHub": {
+		"message": "GitHub",
+		"description": "Navbar item with label GitHub"
+	},
+	"item.label.Danh sách đặc": {
+		"message": "Danh sách đặc",
+		"description": "Navbar item with label Danh sách đặc"
+	},
+	"item.label.Danh sách liên kết": {
+		"message": "Danh sách liên kết",
+		"description": "Navbar item with label Danh sách liên kết"
+	}
 }

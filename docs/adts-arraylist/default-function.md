@@ -473,7 +473,7 @@ Sắp xếp các phần tử từ bé đến lớn.
 void sort(List *pL)
 {
     for (int i = 0; i < pL->Last; i++)
-        for (int j = i + 1; j < 
+        for (int j = i + 1; j <
         :::info Yêu cầupL->Last; j++)
             if (pL->Elements[i] pL->Elements[j])
             :::
