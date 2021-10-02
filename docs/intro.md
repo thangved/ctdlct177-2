@@ -34,7 +34,7 @@ Tìm hiểu về một số kiểu dữ liệu trừu tượng cơ bản và cá
 
 ### Ngăn xếp
 
-[![nx](../static/img/banner/nx-banner.png)](#)
+[![nx](../static/img/banner/nx-banner.png)](/docs/adts-stack/intro)
 
 ### Hàng đợi
 

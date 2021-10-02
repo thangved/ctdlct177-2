@@ -26,5 +26,13 @@
 	"item.label.Danh sách liên kết": {
 		"message": "Danh sách liên kết",
 		"description": "Navbar item with label Danh sách liên kết"
+	},
+	"item.label.Ngăn xếp": {
+		"message": "Ngăn xếp",
+		"description": "Navbar item with label Ngăn xếp"
+	},
+	"item.label.Hàng đợi": {
+		"message": "Hàng đợi",
+		"description": "Navbar item with label Hàng đợi"
 	}
 }

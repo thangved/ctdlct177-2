@@ -85,14 +85,16 @@ void printStack(Stack *pS)
 int ktChuoi()
 {
     char chuoi[100];
-    scanf("%s", chuoi);
-    int length = strlen(chuoi);
+    fgets(chuoi, 100, stdin);
+    fflush(stdin);
+    chuoi[strlen(chuoi) - 1] = '\0';
     Stack S;
     makenullStack(&S);
+    int length = strlen(chuoi);
     for (int i = 0; i < length; i++)
     {
         if (chuoi[i] == '(')
-            push(chuoi[i], &S);
+            push('(', &S);
         else if (chuoi[i] == ')')
         {
             if (emptyStack(S))
@@ -151,5 +153,92 @@ float tinhGiatri(char *chuoi)
         }
     }
     return top(S);
+}
+```
+
+## inThaplucphan
+
+```c
+void inThaplucphan(int n)
+{
+    char Hex[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
+    Stack S;
+    makenullStack(&S);
+    while (n != 0)
+    {
+        push(Hex[n % 16], &S);
+        n /= 16;
+    }
+    while (!emptyStack(S))
+    {
+        printf("%c", top(S));
+        pop(&S);
+    }
+}
+```
+
+## chuyenHauto
+
+```c
+int isNumber(char c)
+{
+    return (c >= '0' && c <= '9');
+}
+
+int isAb(char c)
+{
+    return (c >= 'a' && c <= 'z');
+}
+
+void pushChar(char c, char *s)
+{
+
+    s[strlen(s) + 1] = '\0';
+    s[strlen(s)] = c;
+}
+
+int isOP(char c)
+{
+    return (c == '+' || c == '-' || c == '*' || c == '/');
+}
+
+void chuyenHauto(char *trungto, char *hauto)
+{
+    hauto[0] = '\0';
+    Stack S;
+    makenullStack(&S);
+    for (int i = 0; i < strlen(trungto); i++)
+    {
+        if (trungto[i] == ' ')
+        {
+        }
+        else if (isNumber(trungto[i]) || isAb(trungto[i]))
+            pushChar(trungto[i], hauto);
+        else if (trungto[i] == '(')
+            push('(', &S);
+        else if (trungto[i] == ')')
+        {
+            while (top(S) != '(')
+            {
+                pushChar(top(S), hauto);
+                pop(&S);
+            }
+            pop(&S);
+        }
+        else if (isOP(trungto[i]))
+        {
+            while (!emptyStack(S) && top(S) != '(' && mucUutien(trungto[i]) <= mucUutien(top(S)))
+            {
+                pushChar(top(S), hauto);
+                pop(&S);
+            }
+            push(trungto[i], &S);
+        }
+    }
+    while (!emptyStack(S))
+    {
+        pushChar(top(S), hauto);
+        pop(&S);
+    }
 }
 ```

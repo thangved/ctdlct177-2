@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
 	{
 		title: 'Cập nhật đầy đủ?',
-		Svg: require('../../static/img/ga.svg').default,
+		Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
 		description: (
 			<>
 				Mình sẽ cố gắng cập nhật đầy đủ nhất về tài liệu của môn học
@@ -15,7 +15,7 @@ const FeatureList = [
 	},
 	{
 		title: 'Giao diện thân thiện',
-		Svg: require('../../static/img/gavavit.svg').default,
+		Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
 		description: (
 			<>
 				Giao diện trang web được xây dựng trên thư viện{' '}
@@ -26,7 +26,7 @@ const FeatureList = [
 	},
 	{
 		title: 'Hoàn toàn miễn phí!',
-		Svg: require('../../static/img/vit.svg').default,
+		Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
 		description: (
 			<>
 				Đây là dự án mình thực hiện trong quá trình học nên sẽ hoàn toàn

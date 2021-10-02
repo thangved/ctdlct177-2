@@ -93,6 +93,14 @@ module.exports = {
 								label: 'Danh sách liên kết',
 								href: '/docs/adts-pointerlist/intro',
 							},
+							{
+								label: 'Ngăn xếp',
+								href: '/docs/adts-stack/intro',
+							},
+							{
+								label: 'Hàng đợi',
+								href: '/docs/adts-queue/intro',
+							},
 						],
 					},
 					{

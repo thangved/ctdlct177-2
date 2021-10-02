@@ -18,5 +18,9 @@
 	"sidebar.tutorialSidebar.category.Ngăn xếp": {
 		"message": "Ngăn xếp",
 		"description": "The label for category Ngăn xếp in sidebar tutorialSidebar"
+	},
+	"sidebar.tutorialSidebar.category.Hàng đợi": {
+		"message": "Hàng đợi",
+		"description": "The label for category Hàng đợi in sidebar tutorialSidebar"
 	}
 }
