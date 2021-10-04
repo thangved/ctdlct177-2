@@ -2,9 +2,9 @@
 sidebar_position: 4
 ---
 
-# KHAI BÁO DANH SÁCH
+# Khai báo danh sách
 
-## ĐA THỨC
+## Đa thức
 
 :::info Yêu cầu
 Đa thức là danh sách đơn thức.

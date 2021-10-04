@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# TỔNG QUAN
+# Tổng quan
 
 :::info
 Tài liệu môn cấu trúc dữ liệu được thực hiện bởi một con **ZỊT**, bao gồm một số nội dung sau:

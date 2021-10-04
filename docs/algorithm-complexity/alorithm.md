@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# GIẢI THUẬT
+# Giair thuật
 
-## KHÁI NIỆM
+## Khái niệm
 
 :::info Khái niệm
 
@@ -12,14 +12,14 @@ sidebar_position: 2
 
 :::
 
-## TÍNH CHẤT
+## Tính chất
 
 :::note Tính chất
 
--   Hữu hạn
+- Hữu hạn
 
--   Xác định
+- Xác định
 
--   Hiệu quả
+- Hiệu quả
 
 :::

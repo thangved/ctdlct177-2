@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# MỘT SỐ PHÉP TOÁN TRÊN DANH SÁCH ĐẶC CÁC SỐ NGUYÊN
+# Một số phép toán cơ bản
 
-## CÁC PHÉP TOÁN CƠ BẢN
+## Các phép toán cơ bản
 
 ### deleteList
 

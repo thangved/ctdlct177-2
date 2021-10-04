@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# MỘT SỐ PHÉP TOÁN TRÊN STACK
+# Một số phép toán trên Stack
 
-## CÁC PHÉP TOÁN CƠ BẢN
+## Các phép toán cơ bản
 
 ### makenullStack
 

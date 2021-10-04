@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # ĐA THỨC
 
-## KHAI BÁO KIỂU DỮ LIỆU
+## Khai báo kiểu dữ liệu
 
 ```c
 typedef struct
@@ -21,7 +21,7 @@ typedef struct Node *Position;
 typedef Position DaThuc;
 ```
 
-## MỘT SỐ PHÉP TOÁN
+## Một số phép toán
 
 :::caution
 Do hàm viết bằng tên tiếng Việt (hơn hết là vì tôi lười) nên sẽ không chú thích

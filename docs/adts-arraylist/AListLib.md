@@ -1,4 +1,4 @@
-# THƯ VIỆN DANH SÁCH ĐẶC (AListLib.c)
+# Thư viện danh sách đặc (AListLib.c)
 
 [Tải về tại đây](/lib/AListLib.c)
 

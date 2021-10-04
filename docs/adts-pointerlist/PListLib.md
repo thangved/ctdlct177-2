@@ -1,4 +1,4 @@
-# THƯ VIỆN DANH SÁCH LIÊN KẾT (PListLib.c)
+# Thư viện danh sách liên kết (PListLib.c)
 
 [Tải về tại đây](/lib/PListLib.c)
 

@@ -2,9 +2,9 @@
 sidebar_position: 5
 ---
 
-# DANH SÁCH SINH VIÊN
+# Danh sách sinh viên
 
-## KHAI BÁO KIỂU DỮ LIỆU
+## Khai báo kiểu dữ liệu
 
 ```c
 typedef struct
@@ -23,7 +23,7 @@ typedef struct Node *Position;
 typedef struct Node *List;
 ```
 
-## MỘT SỐ PHÉP TOÁN
+## Một số phép toán
 
 ### append
 

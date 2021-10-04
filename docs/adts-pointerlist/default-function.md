@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# CÁC PHÉP TOÁN TRÊN DANH SÁCH LIÊN KẾT CÁC SỐ NGUYÊN
+# Các phép toán trên danh sách liên kết các số nguyên
 
-## CÁC PHÉP TOÁN CƠ BẢN
+## Các phép toán cơ bản
 
 ### deleteList
 
@@ -190,7 +190,7 @@ ElementType retrieve(Position P, List L)
 }
 ```
 
-## CÁC PHÉP TOÁN KHÁC
+## Các phép toán khác
 
 ### addFirst
 

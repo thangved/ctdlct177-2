@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# TỔNG QUAN
+# Tổng quan
 
 ![banner](../../static/img/banner/dsd-banner.png)
 
-## MỘT SỐ KHÁI NIỆM
+## Một số khái niệm
 
 ### Danh sách đặc
 
@@ -42,7 +42,7 @@ Kiểu vị trí của Danh sách, tương đương với `index + 1`.
 typedef int Position;
 ```
 
-## CÀI ĐẶT DANH SÁCH ĐẶC
+## Cài đặt danh sách đặc
 
 ```c
 typedef struct

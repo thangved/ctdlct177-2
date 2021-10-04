@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# ÁP DỤNG DANH SÁCH LIÊN KẾT CÁC SỐ NGUYÊN (ELSE)
+# Áp dụng danh sách liên kết các số nguyên (ELSE)
 
-## LƯU Ý
+## Lưu ý
 
 :::caution Lưu ý
 Đây là những bài tập trên hệ thống `ELSE` của `ĐHCT`
@@ -12,9 +12,9 @@ sidebar_position: 3
 Mình chỉ viết hàm main để các bạn có thể mườn tượng ra cách làm. Copy + Paste auto sai mà phải viết thêm các hàm được yêu cầu.
 :::
 
-## CÁC BÀI TẬP
+## Các bài tập
 
-### BÀI 1
+### Bài 1
 
 :::info
 `#include "PListLib.c"`
@@ -41,7 +41,7 @@ int main()
 }
 ```
 
-### BÀI 2
+### Bài 2
 
 :::info
 `#include "PListLib.c"`
@@ -68,7 +68,7 @@ int main()
 }
 ```
 
-### BÀI 3
+### Bài 3
 
 :::info
 `#include "PListLib.c"`
@@ -95,7 +95,7 @@ int main()
 }
 ```
 
-### BÀI 4
+### Bài 4
 
 :::info
 `#include "PListLib.c"`
@@ -124,7 +124,7 @@ int main()
 }
 ```
 
-### BÀI 5
+### Bài 5
 
 :::info
 `#include "PListLib.c"`
@@ -152,7 +152,7 @@ int main()
 }
 ```
 
-### BÀI 6
+### Bài 6
 
 :::info
 `#include "PListLib.c"`
@@ -175,7 +175,7 @@ int main()
 }
 ```
 
-### BÀI 7
+### Bài 7
 
 :::info
 `#include "PListLib.c"`
@@ -204,7 +204,7 @@ int main()
 }
 ```
 
-### BÀI 8
+### Bài 8
 
 :::info
 `#include "PListLib.c"`
@@ -232,7 +232,7 @@ int main()
 }
 ```
 
-### BÀI 9
+### Bài 9
 
 :::info
 `#include "PListLib.c"`
@@ -256,7 +256,7 @@ int main()
 }
 ```
 
-### BÀI 10
+### Bài 10
 
 :::info
 `#include "PListLib.c"`

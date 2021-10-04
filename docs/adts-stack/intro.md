@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# TỔNG QUAN
+# Tổng quan
 
 ![banner](../../static/img/banner/nx-banner.png)
 
-## KHÁI NIỆM
+## Khái niệm
 
 :::info Khái niệm
 Là một dạng `danh sách` đặc biệt mà việc thêm hay xóa một phần tử chỉ thực hiện tại một đầu hay đỉnh của danh sách.

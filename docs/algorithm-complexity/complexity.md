@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# ĐỘ PHỨC TẠP CỦA GIẢI THUẬT
+# Độ phức tạp của giải thuật
 
-## KHÁI NIỆM
+## Khái niệm
 
 :::info
 
@@ -34,7 +34,7 @@ void sort(int A[])
 
 > Độ phức tạp của giải thuật này là n^2.
 
-## CÁC DẠNG PHỨC TẠP THƯỜNG GẶP
+## Các dạng phức tạp thường gặp
 
 | Dạng phức tạp | Hàm thể hiện độ phức tạp | Thời gian thực hiện   |
 | ------------- | ------------------------ | --------------------- |
@@ -46,7 +46,7 @@ void sort(int A[])
 | Khối          | n^3                      | O(n^3)                |
 | Mũ            | 2^n, n!, n^k             | O(2^n), O(n!), O(n^k) |
 
-## VÍ DỤ VỀ CÁCH TÍNH ĐỘ PHỨC TẠP
+## Ví dụ
 
 :::danger
 

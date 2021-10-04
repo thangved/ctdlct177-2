@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# TỔNG QUAN
+# Tổng quan
 
-## KHÁI NIỆM
+## Khái niệm
 
 :::info Khái niệm
 

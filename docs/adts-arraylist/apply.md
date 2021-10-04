@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# ÁP DỤNG DANH SÁCH ĐẶC CÁC SỐ NGUYÊN
+# Áp dụng danh sách đặc các số nguyên
 
-## LƯU Ý
+## Lưu ý
 
 :::caution Lưu ý
 Đây là phần áp dụng danh sách đặc các số nguyên trên hệ thống else
@@ -12,9 +12,9 @@ sidebar_position: 3
 Mình chỉ viết hàm `main` để các bạn biết cách làm. Còn các hàm khác không có trong file `AListLib.c` các bạn phải tự định nghĩa theo yêu cầu đề bài.
 :::
 
-## BÀI TẬP
+## Bài tập
 
-### BÀI 1
+### Bài 1
 
 :::info
 Khai báo sử dụng thư viện AListLib.c
@@ -43,7 +43,7 @@ int main()
 }
 ```
 
-### BÀI 2
+### Bài 2
 
 :::info
 Khai báo sử dụng thư viện AListLib.c
@@ -66,7 +66,7 @@ int main()
 }
 ```
 
-### BÀI 3
+### Bài 3
 
 :::info
 Khai báo sử dụng thư viện AListLib.c
@@ -95,7 +95,7 @@ int main()
 }
 ```
 
-### BÀI 4
+### Bài 4
 
 :::info
 Khai báo sử dụng thư viện AListLib.c
@@ -126,7 +126,7 @@ int main()
 }
 ```
 
-### BÀI 5
+### Bài 5
 
 :::info
 Khai báo sử dụng thư viện AListLib.c
@@ -159,7 +159,7 @@ int main()
 }
 ```
 
-### BÀI 6
+### Bài 6
 
 :::info
 include "AListLib.c"
