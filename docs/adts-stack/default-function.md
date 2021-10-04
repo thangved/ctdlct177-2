@@ -54,10 +54,7 @@ Trả về giá trị của đỉnh `Stack`.
 ```c
 ElementType top(Stack S)
 {
-    if (!emptyStack(S))
-        return S.Elements[S.Top_idx];
-    printf("Loi! Ngan xep rong");
-    return NULL;
+    return S.Elements[S.Top_idx];
 }
 ```
 
@@ -70,9 +67,7 @@ Xóa phần tử ở đầu `Stack`.
 ```c
 void pop(Stack *pS)
 {
-    if (!emptyStack(*pS))
-        pS->Top_idx--;
-    printf("Loi! Ngan xep rong");
+    pS->Top_idx++;
 }
 ```
 
@@ -85,11 +80,6 @@ Chèn thêm phần tử vào đỉnh `Stack`.
 ```c
 void push(ElementType x, Stack *pS)
 {
-    if (fullStack(*pS))
-    {
-        printf("Loi! Ngan xep day");
-        return;
-    }
     pS->Top_idx--;
     pS->Elements[pS->Top_idx] = x;
 }

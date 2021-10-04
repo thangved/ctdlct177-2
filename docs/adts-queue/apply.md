@@ -54,47 +54,49 @@ Gợi ý:
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+
 #include "AStack.c"
 #include "CAQueue.c"
 
 int isAb(char c)
 {
-    return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+    return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
 }
 
 int main()
 {
-    char chuoi[255];
-    fgets(chuoi, 100, stdin);
-    fflush(stdin);
-    int length = strlen(chuoi);
-    chuoi[length - 1] = '\0';
-    length--;
+    char s[256];
+    fgets(s, 255, stdin);
+    s[strlen(s) - 1] = '\0';
 
     Stack S;
     makenullStack(&S);
+
     Queue Q;
     makenullQueue(&Q);
 
-    for (int i = 0; i < length; i++)
-    {
-        if (!isAb(chuoi[i]))
-            continue;
-        push(tolower(chuoi[i]), &S);
-        enQueue(tolower(chuoi[i]), &Q);
-    }
-
-    while (!(emptyQueue(Q) && emptyStack(S)))
-    {
-        if (front(Q) != top(S))
+    // Dua vo ngan xep va hang doi
+    for (int i = 0; i < strlen(s); i++)
+        if (isAb(s[i]))
         {
-            printf("\"%s\" doc xuoi khac doc nguoc", chuoi);
+            push(tolower(s[i]), &S);
+            enQueue(tolower(s[i]), &Q);
+        }
+
+    // Kiem tra
+    while (!emptyQueue(Q))
+    {
+        if (top(S) != front(Q))
+        {
+            printf("\"%s\" doc xuoi khac doc nguoc\n", s);
             return 0;
         }
-        pop(&S);
         deQueue(&Q);
+        pop(&S);
     }
-    printf("\"%s\" doc xuoi va doc nguoc nhu nhau", chuoi);
+
+    printf("\"%s\" doc xuoi va doc nguoc nhu nhau\n", s);
+
     return 0;
 }
 ```
@@ -144,37 +146,34 @@ Dữ liệu đầu ra là dòng ghi chuỗi được mã hóa (xem thêm trong t
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 #include "PQueue.c"
 
 int main()
 {
-    char pass[1000];
+    char pass[512];
     char key[100];
-    char hash[100];
 
-    fgets(pass, 1000, stdin);
+    fgets(pass, 511, stdin);
     fflush(stdin);
+    fgets(key, 99, stdin);
+    fflush(stdin);
+
     pass[strlen(pass) - 1] = '\0';
-    int passLength = strlen(pass);
+    key[strlen(key) - 1] = '\0';
 
-    scanf("%s", key);
-    getchar();
-    int keyLength = strlen(key);
+    Queue Q;
+    makenullQueue(&Q);
+    for (int i = 0; i < strlen(key); i++)
+        enQueue(key[i] - 48, &Q);
 
-    Queue keys;
-    makenullQueue(&keys);
-
-    for (int i = 0; i < keyLength; i++)
-        enQueue((int)key[i] - 48, &keys);
-
-    for (int i = 0; i < passLength; i++)
+    for (int i = 0; i < strlen(pass); i++)
     {
-        hash[i] = pass[i] + front(keys);
-        hash[i + 1] = '\0';
-        enQueue(front(keys), &keys);
-        deQueue(&keys);
+        printf("%c", pass[i] + front(Q));
+        enQueue(front(Q), &Q);
+        deQueue(&Q);
     }
-    printf("%s\n", hash);
+
     return 0;
 }
 ```
@@ -224,39 +223,34 @@ Gợi ý:
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "PQueue.c"
 
-// Giai ma
+#include "PQueue.c"
 
 int main()
 {
-    char hashPass[1000];
+    char hash[512];
     char key[100];
-    char pass[100];
 
-    fgets(hashPass, 1000, stdin);
+    fgets(hash, 511, stdin);
     fflush(stdin);
-    hashPass[strlen(hashPass) - 1] = '\0';
-    int passLength = strlen(hashPass);
+    fgets(key, 99, stdin);
+    fflush(stdin);
 
-    scanf("%s", key);
-    getchar();
-    int keyLength = strlen(key);
+    hash[strlen(hash) - 1] = '\0';
+    key[strlen(key) - 1] = '\0';
 
-    Queue keys;
-    makenullQueue(&keys);
+    Queue Q;
+    makenullQueue(&Q);
+    for (int i = 0; i < strlen(key); i++)
+        enQueue(key[i] - 48, &Q);
 
-    for (int i = 0; i < keyLength; i++)
-        enQueue((int)key[i] - 48, &keys);
-
-    for (int i = 0; i < passLength; i++)
+    for (int i = 0; i < strlen(hash); i++)
     {
-        pass[i] = hashPass[i] - front(keys);
-        pass[i + 1] = '\0';
-        enQueue(front(keys), &keys);
-        deQueue(&keys);
+        printf("%c", hash[i] - front(Q));
+        enQueue(front(Q), &Q);
+        deQueue(&Q);
     }
-    printf("%s\n", pass);
+
     return 0;
 }
 ```
@@ -301,81 +295,97 @@ Thực hiện mô phỏng theo số lượng quầy thu ngân tăng dần (từ 
   - Trong khi hàng đợi chưa hết: Với lần lượt từng quầy thu ngân, nếu vẫn còn khách trong hàng đợi thì lấy thời gian đến của khách,  tính thời gian đi của khách (liên quan đến thời gian đến, thời gian tại quầy và thời gian xử lý trung bình cho 1 giao dịch), xóa khách khỏi hàng đợi, cập nhật lại thời gian tại quầy, cập nhật lại tổng thời gian.
 - Tính thời gian trung bình mà khách hàng phải đợi dựa trên tổng thời gian và số lượng khách để dừng quá trình lặp và đưa ra kết luận hay lại tiếp tục lặp.
 
+**Example:**
+
+| Input                             | Result                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 100<br/>10<br/>120<br/>15<br/>120 | So quay: 1; Thoi gian cho trung binh: 5317.0<br/>So quay: 2; Thoi gian cho trung binh: 2325.0<br/>So quay: 3; Thoi gian cho trung binh: 1332.0<br/>So quay: 4; Thoi gian cho trung binh: 840.0<br/>So quay: 5; Thoi gian cho trung binh: 547.0<br/>So quay: 6; Thoi gian cho trung binh: 355.0<br/>So quay: 7; Thoi gian cho trung binh: 219.0<br/>So quay: 8; Thoi gian cho trung binh: 120.0<br/> => Sieu thi se mo 8 quay |
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include "PIQueue.c"
 
-int input()
+// **** Dua thoi gian den cua khach vao hang ****
+void lineUp(int letTime, int client, Queue *pQ)
 {
-    int x;
-    scanf("%d", &x);
-    return x;
+    makenullQueue(pQ);
+    for (int i = 1; i <= client; i++)
+        enQueue(i * letTime, pQ);
 }
 
-// Dua du lieu khach hang vao hang doi
-void lineUp(int dTime, int client, Queue *line)
-{
-    makenullQueue(line);
-    for (int i = 0; i < client; i++)
-        enQueue(dTime * (i + 1), line);
-}
-
-// lam moi time tai quay
+// **** Dat lai thoi gian cho tung quay ****
 void reset(int A[], int n)
 {
     for (int i = 0; i < n; i++)
         A[i] = 0;
 }
 
+// **** Tinh tong thoi gian cho cua khach ****
+int getTotalTime(int tranferTime, Queue *line, int cashiers[], int open)
+{
+    int totalTime = 0;
+    while (!emptyQueue(*line))
+    {
+        for (int i = 0; i < open; i++)
+        {
+            if (emptyQueue(*line))
+                break;
+            if (cashiers[i] < front(*line))
+                cashiers[i] = front(*line);
+            totalTime += cashiers[i] - front(*line) + tranferTime;
+            cashiers[i] += tranferTime;
+            deQueue(line);
+        }
+    }
+    return totalTime;
+}
+
 int main()
 {
-    int client = input();
-    int maxCashier = input();
-    int tranferTime = input();
-    int dTime = input();
-    int waitTime = input();
+    // message template
+    char info[] = "So quay: %d; Thoi gian cho trung binh: %.1f\n";
+    char success[] = "=> Sieu thi se mo %d quay\n";
+    char failed[] = "Voi %d quay hien co, khach phai cho it nhat %.1f giay moi duoc phuc vu.\n";
+
+    int client;      // so khach hang
+    int maxCashier;  // so quay toi da
+    int tranferTime; // thoi gian giao dich
+    int letTime;     // thoi gian khach den
+    int maxWaitTime; // thoi gian cho toi da
+
+    scanf(
+        "%d%d%d%d%d",
+        &client,
+        &maxCashier,
+        &tranferTime,
+        &letTime,
+        &maxWaitTime);
 
     Queue line;
     int cashiers[maxCashier];
-
     int totalTime;
 
-    for (int cashierOpen = 1; cashierOpen <= maxCashier; cashierOpen++)
+    for (int open = 1; open <= maxCashier; open++)
     {
-        // Lam moi du lieu
-        totalTime = 0;
-        lineUp(dTime, client, &line);
-        reset(cashiers, cashierOpen);
+        lineUp(letTime, client, &line);
+        reset(cashiers, open);
 
-        while (!emptyQueue(line))
+        totalTime = getTotalTime(tranferTime, &line, cashiers, open);
+
+        // **** In thong tin voi tung so luong quay ****
+        printf(info, open, (float)(totalTime / client));
+
+        // **** Ket luan neu so quay toi da dap ung yeu cau ****
+        if (totalTime / client <= maxWaitTime)
         {
-            for (int cashierIdx = 0; cashierIdx < cashierOpen; cashierIdx++)
-            {
-                if (emptyQueue(line))
-                    continue;
-                if (front(line) > cashiers[cashierIdx])
-                    cashiers[cashierIdx] = front(line);
-                totalTime += cashiers[cashierIdx] - front(line) + tranferTime;
-                cashiers[cashierIdx] += tranferTime;
-                deQueue(&line);
-            }
-        }
-        printf(
-            "So quay: %d; Thoi gian cho trung binh: %.1f\n",
-            cashierOpen,
-            (float)(totalTime / client));
-        if (totalTime / client <= waitTime)
-        {
-            printf("=> Sieu thi se mo %d quay\n", cashierOpen);
+            printf(success, open);
             return 0;
         }
     }
 
-    printf(
-        "Voi %d quay hien co, khach phai cho it nhat %.1f giay moi duoc phuc vu.\n",
-        maxCashier,
-        (float)(totalTime / client));
+    // **** Ket luan neu failed ****
+    printf(failed, maxCashier, (float)(totalTime / client));
 
     return 0;
 }
