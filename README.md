@@ -1,5 +1,7 @@
 # Website
 
+[![CodeFactor](https://www.codefactor.io/repository/github/thangved/ctdlct177-2/badge)](https://www.codefactor.io/repository/github/thangved/ctdlct177-2)
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
