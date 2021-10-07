@@ -66,10 +66,6 @@ module.exports = {
 				hideOnScroll: true,
 				items: [
 					{
-						type: 'search',
-						position: 'right',
-					},
-					{
 						type: 'doc',
 						docId: 'intro',
 						position: 'left',
@@ -102,6 +98,11 @@ module.exports = {
 								href: '/docs/adts-queue/intro',
 							},
 						],
+					},
+					{
+						label: 'Git cơ bản',
+						to: '/docs/git-tutorial/intro',
+						position: 'right',
 					},
 					{
 						href: 'https://github.com/thangved/datastructure',

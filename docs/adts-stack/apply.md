@@ -10,17 +10,17 @@ sidebar_position: 3
 
 Nguyên mẫu (Prototype)
 
-- Tên hàm: doiNhiPhan()
-- Tham số:
+-   Tên hàm: doiNhiPhan()
+-   Tham số:
 
-  - **n**: số nguyên;
-  - **pS**: con trỏ ngăn xếp.
+    -   **n**: số nguyên;
+    -   **pS**: con trỏ ngăn xếp.
 
-- Kiểu trả về: không
+-   Kiểu trả về: không
 
 Thân hàm (Body)
 
-- Đổi số nguyên n về dạng nhị phân, kết quả lưu trong ngăn xếp chỉ bởi con trỏ pS
+-   Đổi số nguyên n về dạng nhị phân, kết quả lưu trong ngăn xếp chỉ bởi con trỏ pS
 
 :::
 

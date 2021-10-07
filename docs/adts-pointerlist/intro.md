@@ -13,8 +13,8 @@ sidebar_position: 1
 :::info
 `struct Node` là một cấu trúc gồm 2 trường:
 
-- Trường `Element` lưu trữ giá trị có kiểu ElementType;
-- Trường `Next` là con trỏ lưu địa chỉ của phần tử kế tiếp trong danh sách có kiểu `struct Node *`.
+-   Trường `Element` lưu trữ giá trị có kiểu ElementType;
+-   Trường `Next` là con trỏ lưu địa chỉ của phần tử kế tiếp trong danh sách có kiểu `struct Node *`.
 
 :::
 

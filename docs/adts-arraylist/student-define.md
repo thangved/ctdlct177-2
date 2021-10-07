@@ -11,9 +11,9 @@ sidebar_position: 5
 :::info
 Cấu trúc `struct SinhVien` gồm các trường:
 
-- `char` _MSSV, HoTen_: Lưu trữ mã số sinh viên và Họ tên sinh viên;
+-   `char` _MSSV, HoTen_: Lưu trữ mã số sinh viên và Họ tên sinh viên;
 
-- `float` _DiemLT, DiemTH1, DiemTH2_: Lưu trữ điểm lý thuyết, thực hành 1 và 2.
+-   `float` _DiemLT, DiemTH1, DiemTH2_: Lưu trữ điểm lý thuyết, thực hành 1 và 2.
 
 :::
 
