@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Giair thuật
+# Giải thuật
 
 ## Khái niệm
 
