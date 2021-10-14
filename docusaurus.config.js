@@ -108,6 +108,10 @@ module.exports = {
 								label: 'Hàng đợi',
 								href: '/docs/adts-queue/intro',
 							},
+							{
+								label: 'Cây nhị phân',
+								href: '/docs/adts-tree/intro',
+							},
 						],
 					},
 					{
