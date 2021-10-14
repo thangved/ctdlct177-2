@@ -54,11 +54,11 @@ Bằng cách sử dụng kiểu dữ liệu cây nhị phân Tree đã cho, hãy
 
 Dữ liệu đầu vào:
 
--   Chuỗi chứa biểu thức tiền tự. Ví dụ: "DBEAFC".
--   Chuỗi chứa biểu thức trung tự. Ví dụ: "ABDECF".
--   Chỉ số bắt đầu của phần chuỗi trung tự được xét. Ví dụ: 0
--   Chỉ số kết thúc của phần chuỗi trung tự được xét: Ví dụ: 5
--   Dữ liệu đầu ra: con trỏ trỏ đến nút gốc của cây nhị phân được tạo ra từ hai biểu thức tiền tự và trung tự. (xem thêm các test case)
+- Chuỗi chứa biểu thức tiền tự. Ví dụ: "DBEAFC".
+- Chuỗi chứa biểu thức trung tự. Ví dụ: "ABDECF".
+- Chỉ số bắt đầu của phần chuỗi trung tự được xét. Ví dụ: 0
+- Chỉ số kết thúc của phần chuỗi trung tự được xét: Ví dụ: 5
+- Dữ liệu đầu ra: con trỏ trỏ đến nút gốc của cây nhị phân được tạo ra từ hai biểu thức tiền tự và trung tự. (xem thêm các test case)
 
 :::success Solution
 
@@ -361,3 +361,23 @@ Các đường đi từ nút gốc đến nút lá có độ dài bằng 2 là:
 12 24 10
 12 7 -8
 ```
+
+:::success Solution
+
+```c
+void printAllPaths(Tree T, int path[], int len, int pathlen)
+{
+    if (T == NULL || len > pathlen + 1)
+        return;
+    path[len] = T->Data;
+    len++;
+
+    if (len == pathlen + 1 && isLeaf(T))
+        printArray(path, len);
+
+    printAllPaths(T->Left, path, len, pathlen);
+    printAllPaths(T->Right, path, len, pathlen);
+}
+```
+
+:::
