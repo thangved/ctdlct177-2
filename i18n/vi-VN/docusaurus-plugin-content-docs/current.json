@@ -26,5 +26,9 @@
   "sidebar.tutorialSidebar.category.Git cơ bản": {
     "message": "Git cơ bản",
     "description": "The label for category Git cơ bản in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cây nhị phân": {
+    "message": "Cây nhị phân",
+    "description": "The label for category Cây nhị phân in sidebar tutorialSidebar"
   }
 }
