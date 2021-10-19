@@ -8,6 +8,12 @@ sidebar_position: 1
 Tài liệu môn cấu trúc dữ liệu được thực hiện bởi một con **ZỊT**, bao gồm một số nội dung sau:
 :::
 
+![view](https://komarev.com/ghpvc/?username=thangved)
+
+![github-start](https://github-readme-stats.vercel.app/api?username=thangved&show_icons=true)
+
+![details](https://github-readme-stats.vercel.app/api/top-langs/?username=thangved&layout=compact)
+
 ![bn](../static/img/banner/ctdlvgt-banner.png)
 
 ## ĐỘ PHỨC TẠP CỦA GIẢI THUẬT

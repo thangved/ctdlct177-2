@@ -110,7 +110,11 @@ module.exports = {
 							},
 							{
 								label: 'Cây nhị phân',
-								href: '/docs/adts-tree/intro',
+								href: '/docs/adts-binary-tree/intro',
+							},
+							{
+								label: 'Cây tìm kiếm nhị phân',
+								href: '/docs/adts-binary-search-tree/intro',
 							},
 						],
 					},
