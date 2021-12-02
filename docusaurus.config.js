@@ -21,7 +21,6 @@ module.exports = {
 		locales: ['vi-VN'],
 	},
 	plugins: [
-		'docusaurus-plugin-2dlive',
 		// path.resolve(__dirname, './plugins/2dlive'),
 		path.resolve(__dirname, './plugins/gads'),
 	],
@@ -71,7 +70,7 @@ module.exports = {
 			navbar: {
 				title: 'CTDLCT177',
 				logo: {
-					alt: 'Logo WS',
+					alt: 'Logo W5',
 					src: 'img/logo.png',
 				},
 				hideOnScroll: true,
@@ -160,7 +159,7 @@ module.exports = {
 						items: [
 							{
 								label: 'Trang web',
-								href: 'https://minhthangdev.pw',
+								href: 'https://w5team.web.app',
 							},
 							{
 								label: 'GitHub',
@@ -173,7 +172,7 @@ module.exports = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} WS, Minh Thắng`,
+				copyright: `Copyright © ${new Date().getFullYear()} W5, Minh Thắng`,
 			},
 			prism: {
 				theme: darkCodeTheme,
