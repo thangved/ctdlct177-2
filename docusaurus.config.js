@@ -62,7 +62,7 @@ module.exports = {
 		({
 			colorMode: {
 				defaultMode: 'light',
-				disableSwitch: true,
+				disableSwitch: false,
 			},
 			googleAnalytics: {
 				trackingID: 'UA-169242940-3',
