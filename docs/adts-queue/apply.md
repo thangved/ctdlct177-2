@@ -36,11 +36,11 @@ Dữ liệu đầu ra là dòng thông báo chuỗi đọc xuôi và đọc ngư
 
 Gợi ý:
 
--   Đọc từng chữ cái trong chuỗi dữ liệu đầu vào và lưu đồng thời vào một ngăn xếp và một hàng đợi => ngăn xếp sẽ lưu chuỗi đọc ngược và hàng đợi sẽ lưu chuỗi đọc xuôi.
--   Trong khi hàng đợi chưa rỗng:
-    -   Nếu phần tử trên đỉnh ngăn xếp và phần tử ở đầu hàng đợi khác nhau thì kết luận chuỗi đọc xuôi khác đọc ngược.
-    -   Ngược lại, xóa phần tử ở cả ngăn xếp và hàng đợi.
--   Kết luận chuỗi đọc xuôi và đọc ngược là như nhau.
+- Đọc từng chữ cái trong chuỗi dữ liệu đầu vào và lưu đồng thời vào một ngăn xếp và một hàng đợi => ngăn xếp sẽ lưu chuỗi đọc ngược và hàng đợi sẽ lưu chuỗi đọc xuôi.
+- Trong khi hàng đợi chưa rỗng:
+  - Nếu phần tử trên đỉnh ngăn xếp và phần tử ở đầu hàng đợi khác nhau thì kết luận chuỗi đọc xuôi khác đọc ngược.
+  - Ngược lại, xóa phần tử ở cả ngăn xếp và hàng đợi.
+- Kết luận chuỗi đọc xuôi và đọc ngược là như nhau.
 
 **For example:**
 
@@ -117,25 +117,25 @@ Bằng cách sử dụng kiểu dữ liệu trừu tượng Queue đã cho, hãy
 
 Dữ liệu đầu vào là:
 
--   Dòng ghi chuỗi cần mã hóa. Ví dụ chuỗi "Hoc CTDL rat vui!".
--   Khóa lặp lại là một chuỗi các ký tự số ('1' - '9') mà chúng xác định mỗi ký tự được dịch chuyển về sau bao nhiêu vị trí.
--   Ví dụ: nếu chuỗi cần mã hóa là "Hoc CTDL rat vui!" và khóa lặp là chuỗi "29137" thì
-    -   Ký tự đầu tiên của chuỗi cần mã hóa ('H') sẽ dịch chuyển về sau 2 vị trí => ký tự 'J'
-    -   Ký tự kế tiếp của chuỗi cần mã hóa ('o') sẽ dịch chuyển về sau 9 vị trí => ký tự 'x'
-    -   Ký tự kế tiếp nữa của chuỗi cần mã hóa ('c') sẽ dịch chuyển về sau 1 vị trí => ký tự 'd'
-    -   Ký tự ' ' sẽ dịch chuyển về sau 3 vị trí => ký tự '#'
-    -   Ký tự 'C' sẽ dịch chuyển về sau 7 vị trí => ký tự 'J'
-    -   Lúc này khóa "29137" đã hết, lại bắt đầu lặp lại khóa này.
-    -   Ký tự 'T' sẽ dịch chuyển về sau 2 vị trí => ký tự 'V'
-    -   Ký tự 'D' sẽ dịch chuyển về sau 9 vị trí => ký tự 'M'
-    -   Và cứ tiếp tục như vậy.
+- Dòng ghi chuỗi cần mã hóa. Ví dụ chuỗi "Hoc CTDL rat vui!".
+- Khóa lặp lại là một chuỗi các ký tự số ('1' - '9') mà chúng xác định mỗi ký tự được dịch chuyển về sau bao nhiêu vị trí.
+- Ví dụ: nếu chuỗi cần mã hóa là "Hoc CTDL rat vui!" và khóa lặp là chuỗi "29137" thì
+  - Ký tự đầu tiên của chuỗi cần mã hóa ('H') sẽ dịch chuyển về sau 2 vị trí => ký tự 'J'
+  - Ký tự kế tiếp của chuỗi cần mã hóa ('o') sẽ dịch chuyển về sau 9 vị trí => ký tự 'x'
+  - Ký tự kế tiếp nữa của chuỗi cần mã hóa ('c') sẽ dịch chuyển về sau 1 vị trí => ký tự 'd'
+  - Ký tự ' ' sẽ dịch chuyển về sau 3 vị trí => ký tự '#'
+  - Ký tự 'C' sẽ dịch chuyển về sau 7 vị trí => ký tự 'J'
+  - Lúc này khóa "29137" đã hết, lại bắt đầu lặp lại khóa này.
+  - Ký tự 'T' sẽ dịch chuyển về sau 2 vị trí => ký tự 'V'
+  - Ký tự 'D' sẽ dịch chuyển về sau 9 vị trí => ký tự 'M'
+  - Và cứ tiếp tục như vậy.
 
 Dữ liệu đầu ra là dòng ghi chuỗi được mã hóa (xem thêm trong test case).
 
 **Gợi ý:**
 
--   Sử dụng hàng đợi để lưu từng chữ số của khóa lặp. Khi chữ số ở đầu hàng đợi được sử dụng (để dịch chuyển ký tự trong chuỗi cần mã hóa) thì nó lại được đưa trở lại hàng đợi.
--   Duyệt từng ký tự trong chuỗi cần mã hóa và kết hợp với hàng đợi để mã hóa (dịch chuyển) ký tự này.
+- Sử dụng hàng đợi để lưu từng chữ số của khóa lặp. Khi chữ số ở đầu hàng đợi được sử dụng (để dịch chuyển ký tự trong chuỗi cần mã hóa) thì nó lại được đưa trở lại hàng đợi.
+- Duyệt từng ký tự trong chuỗi cần mã hóa và kết hợp với hàng đợi để mã hóa (dịch chuyển) ký tự này.
 
 <p
     align="center">
@@ -194,25 +194,25 @@ Bằng cách sử dụng kiểu dữ liệu trừu tượng **Queue** đã cho, 
 
 Dữ liệu đầu vào là:
 
--   Dòng ghi chuỗi cần giải mã. Ví dụ chuỗi "Jxd#JVMM#yc}!y|k\*".
--   Khóa lặp lại là một chuỗi các ký tự số ('1' - '9') mà chúng xác định mỗi ký tự được dịch chuyển về trước bao nhiêu vị trí.
--   Ví dụ: nếu chuỗi cần mã hóa là "Jxd#JVMM#yc}!y|k\*" và khóa lặp là chuỗi "29137" thì
-    -   Ký tự đầu tiên của chuỗi cần mã hóa ('J') sẽ dịch chuyển về trước 2 vị trí => ký tự 'H'
-    -   Ký tự kế tiếp của chuỗi cần mã hóa ('x') sẽ dịch chuyển về trước 9 vị trí => ký tự 'o'
-    -   Ký tự kế tiếp nữa của chuỗi cần mã hóa ('d') sẽ dịch chuyển về trước 1 vị trí => ký tự 'c'
-    -   Ký tự '#' sẽ dịch chuyển về trước 3 vị trí => ký tự ' '
-    -   Ký tự 'J' sẽ dịch chuyển về trước 7 vị trí => ký tự 'C'
-    -   Lúc này khóa "29137" đã hết, lại bắt đầu lặp lại khóa này.
-    -   Ký tự 'V' sẽ dịch chuyển về trước 2 vị trí => ký tự 'T'
-    -   Ký tự 'M' sẽ dịch chuyển về trước 9 vị trí => ký tự 'D'
-    -   Và cứ tiếp tục như vậy.
+- Dòng ghi chuỗi cần giải mã. Ví dụ chuỗi "Jxd#JVMM#yc}!y|k\*".
+- Khóa lặp lại là một chuỗi các ký tự số ('1' - '9') mà chúng xác định mỗi ký tự được dịch chuyển về trước bao nhiêu vị trí.
+- Ví dụ: nếu chuỗi cần mã hóa là "Jxd#JVMM#yc}!y|k\*" và khóa lặp là chuỗi "29137" thì
+  - Ký tự đầu tiên của chuỗi cần mã hóa ('J') sẽ dịch chuyển về trước 2 vị trí => ký tự 'H'
+  - Ký tự kế tiếp của chuỗi cần mã hóa ('x') sẽ dịch chuyển về trước 9 vị trí => ký tự 'o'
+  - Ký tự kế tiếp nữa của chuỗi cần mã hóa ('d') sẽ dịch chuyển về trước 1 vị trí => ký tự 'c'
+  - Ký tự '#' sẽ dịch chuyển về trước 3 vị trí => ký tự ' '
+  - Ký tự 'J' sẽ dịch chuyển về trước 7 vị trí => ký tự 'C'
+  - Lúc này khóa "29137" đã hết, lại bắt đầu lặp lại khóa này.
+  - Ký tự 'V' sẽ dịch chuyển về trước 2 vị trí => ký tự 'T'
+  - Ký tự 'M' sẽ dịch chuyển về trước 9 vị trí => ký tự 'D'
+  - Và cứ tiếp tục như vậy.
 
 Dữ liệu đầu ra là dòng ghi chuỗi được giải mã (xem thêm trong test case).
 
 Gợi ý:
 
--   Sử dụng hàng đợi để lưu từng chữ số của khóa lặp. Khi chữ số ở đầu hàng đợi được sử dụng (để dịch chuyển ký tự trong chuỗi cần giải mã) thì nó lại được đưa trở lại hàng đợi.
--   Duyệt từng ký tự trong chuỗi cần giải mã và kết hợp với hàng đợi để giải mã (dịch chuyển) ký tự này.
+- Sử dụng hàng đợi để lưu từng chữ số của khóa lặp. Khi chữ số ở đầu hàng đợi được sử dụng (để dịch chuyển ký tự trong chuỗi cần giải mã) thì nó lại được đưa trở lại hàng đợi.
+- Duyệt từng ký tự trong chuỗi cần giải mã và kết hợp với hàng đợi để giải mã (dịch chuyển) ký tự này.
 
 <p
     align="center">
@@ -271,16 +271,16 @@ void enQueue(ElementType x, Queue *pQ)  //ElementType là kiểu số nguyên
 
 **Dữ liệu đầu vào:**
 
--   Số khách hàng hàng.
--   Số quầy thu ngân tối đa có trong siêu thị.
--   Thời gian xử lý trung bình cho 1 giao dịch tại quầy thu ngân (đơn vị tính: giây).
--   Thời gian trung bình (số giây) mà khách hàng sẽ đến xếp hàng thanh toán.
--   Thời gian trung bình mà khách hàng phải đợi để được thanh toán X. Ví dụ: khách hàng chỉ phải đợi dưới 120 giây trong hàng đợi là được xử lý giao dịch tại quầy thu ngân.
+- Số khách hàng hàng.
+- Số quầy thu ngân tối đa có trong siêu thị.
+- Thời gian xử lý trung bình cho 1 giao dịch tại quầy thu ngân (đơn vị tính: giây).
+- Thời gian trung bình (số giây) mà khách hàng sẽ đến xếp hàng thanh toán.
+- Thời gian trung bình mà khách hàng phải đợi để được thanh toán X. Ví dụ: khách hàng chỉ phải đợi dưới 120 giây trong hàng đợi là được xử lý giao dịch tại quầy thu ngân.
 
 **Dữ liệu đầu ra (xem thêm trong test case):**
 
--   Số quầy thu ngân mở và thời gian trung bình mà khách hàng phải đợi.
--   Kết luận: số quầy thu ngân cần phải mở để khách hàng chỉ phải đợi dưới X giây trong hàng đợi là được xử lý giao dịch tại quầy thu ngân.
+- Số quầy thu ngân mở và thời gian trung bình mà khách hàng phải đợi.
+- Kết luận: số quầy thu ngân cần phải mở để khách hàng chỉ phải đợi dưới X giây trong hàng đợi là được xử lý giao dịch tại quầy thu ngân.
 
 **Gợi ý:**
 
@@ -288,12 +288,12 @@ Thực hiện mô phỏng theo số lượng quầy thu ngân tăng dần (từ 
 
 **Với từng số lượng quầy:**
 
--   Khởi tạo thời gian tại từng quầy bằng 0;
--   Đưa dữ liệu của khách hàng (thời gian đến của khách hàng) vào hàng đợi;
--   Tính tổng thời gian xử lý giao dịch cho tất cả các khách hàng trong hàng đợi:
-    -   Khởi đầu, tổng thời gian bằng 0;
-    -   Trong khi hàng đợi chưa hết: Với lần lượt từng quầy thu ngân, nếu vẫn còn khách trong hàng đợi thì lấy thời gian đến của khách, tính thời gian đi của khách (liên quan đến thời gian đến, thời gian tại quầy và thời gian xử lý trung bình cho 1 giao dịch), xóa khách khỏi hàng đợi, cập nhật lại thời gian tại quầy, cập nhật lại tổng thời gian.
--   Tính thời gian trung bình mà khách hàng phải đợi dựa trên tổng thời gian và số lượng khách để dừng quá trình lặp và đưa ra kết luận hay lại tiếp tục lặp.
+- Khởi tạo thời gian tại từng quầy bằng 0;
+- Đưa dữ liệu của khách hàng (thời gian đến của khách hàng) vào hàng đợi;
+- Tính tổng thời gian xử lý giao dịch cho tất cả các khách hàng trong hàng đợi:
+  - Khởi đầu, tổng thời gian bằng 0;
+  - Trong khi hàng đợi chưa hết: Với lần lượt từng quầy thu ngân, nếu vẫn còn khách trong hàng đợi thì lấy thời gian đến của khách, tính thời gian đi của khách (liên quan đến thời gian đến, thời gian tại quầy và thời gian xử lý trung bình cho 1 giao dịch), xóa khách khỏi hàng đợi, cập nhật lại thời gian tại quầy, cập nhật lại tổng thời gian.
+- Tính thời gian trung bình mà khách hàng phải đợi dựa trên tổng thời gian và số lượng khách để dừng quá trình lặp và đưa ra kết luận hay lại tiếp tục lặp.
 
 **Example:**
 

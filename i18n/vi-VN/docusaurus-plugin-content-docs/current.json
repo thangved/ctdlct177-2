@@ -30,5 +30,9 @@
 	"sidebar.tutorialSidebar.category.Cây nhị phân": {
 		"message": "Cây nhị phân",
 		"description": "The label for category Cây nhị phân in sidebar tutorialSidebar"
+	},
+	"sidebar.tutorialSidebar.category.Cây tìm kiếm nhị phân": {
+		"message": "Cây tìm kiếm nhị phân",
+		"description": "The label for category Cây tìm kiếm nhị phân in sidebar tutorialSidebar"
 	}
 }

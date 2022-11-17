@@ -38,5 +38,13 @@
 	"item.label.Git cơ bản": {
 		"message": "Git cơ bản",
 		"description": "Navbar item with label Git cơ bản"
+	},
+	"item.label.Cây nhị phân": {
+		"message": "Cây nhị phân",
+		"description": "Navbar item with label Cây nhị phân"
+	},
+	"item.label.Cây tìm kiếm nhị phân": {
+		"message": "Cây tìm kiếm nhị phân",
+		"description": "Navbar item with label Cây tìm kiếm nhị phân"
 	}
 }

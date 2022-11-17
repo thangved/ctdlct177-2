@@ -34,12 +34,12 @@ void sort(int A[])
 
 :::info Cách tính
 
--   Dòng **3**: Phép gán và tính toán số học có độ phức tạp là $O(1)$;
--   Dòng **5**: Vòng lặp có độ phức tạp là $O(n) *$ **độ phức tạp của biểu thức trong vòng lặp**
-    -   Dòng **6**: vòng lặp có độ phức tạp là $O(n) *$ **độ phức tạp của biểu thức trong vòng lặp**
-        -   Dòng **7** đến **12**: Có độ phức tạp là $O(1)$
-    -   Vòng lặp dòng **6** có độ phức tạp là $O(n)*1=O(n)$
--   Vòng lặp dòng **5** có độ phức tạp là $O(n)*O(n)=O(n^2)$
+- Dòng **3**: Phép gán và tính toán số học có độ phức tạp là $O(1)$;
+- Dòng **5**: Vòng lặp có độ phức tạp là $O(n) *$ **độ phức tạp của biểu thức trong vòng lặp**
+  - Dòng **6**: vòng lặp có độ phức tạp là $O(n) *$ **độ phức tạp của biểu thức trong vòng lặp**
+    - Dòng **7** đến **12**: Có độ phức tạp là $O(1)$
+  - Vòng lặp dòng **6** có độ phức tạp là $O(n)*1=O(n)$
+- Vòng lặp dòng **5** có độ phức tạp là $O(n)*O(n)=O(n^2)$
 
 $\rightarrow$ Độ phức tạp của giải thuật này là $O(n^2) + 1 = O(n^2)$.
 

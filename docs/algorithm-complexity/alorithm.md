@@ -16,10 +16,10 @@ sidebar_position: 2
 
 :::note Tính chất
 
--   Hữu hạn
+- Hữu hạn
 
--   Xác định
+- Xác định
 
--   Hiệu quả
+- Hiệu quả
 
 :::
