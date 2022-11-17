@@ -186,5 +186,96 @@
 	"theme.Playground.liveEditor": {
 		"message": "Trình soạn thảo trực tuyến",
 		"description": "The live editor label of the live codeblocks"
+	},
+	"theme.ErrorPageContent.title": {
+		"message": "Trang này đã bị lỗi.",
+		"description": "The title of the fallback page when the page crashed"
+	},
+	"theme.ErrorPageContent.tryAgain": {
+		"message": "Thử lại",
+		"description": "The label of the button to try again when the page crashed"
+	},
+	"theme.admonition.note": {
+		"message": "ghi chú",
+		"description": "The default label used for the Note admonition (:::note)"
+	},
+	"theme.admonition.tip": {
+		"message": "mẹo",
+		"description": "The default label used for the Tip admonition (:::tip)"
+	},
+	"theme.admonition.danger": {
+		"message": "cảnh báo",
+		"description": "The default label used for the Danger admonition (:::danger)"
+	},
+	"theme.admonition.info": {
+		"message": "thông tin",
+		"description": "The default label used for the Info admonition (:::info)"
+	},
+	"theme.admonition.caution": {
+		"message": "cẩn thận",
+		"description": "The default label used for the Caution admonition (:::caution)"
+	},
+	"theme.BackToTopButton.buttonAriaLabel": {
+		"message": "Trở lại đầu trang",
+		"description": "The ARIA label for the back to top button"
+	},
+	"theme.colorToggle.ariaLabel": {
+		"message": "Chuyển đổi chế độ sáng và tối (hiện tại {mode})",
+		"description": "The ARIA label for the navbar color mode toggle"
+	},
+	"theme.colorToggle.ariaLabel.mode.dark": {
+		"message": "chế độ tối",
+		"description": "The name for the dark color mode"
+	},
+	"theme.colorToggle.ariaLabel.mode.light": {
+		"message": "chế độ sáng",
+		"description": "The name for the light color mode"
+	},
+	"theme.docs.breadcrumbs.home": {
+		"message": "Trang chủ",
+		"description": "The ARIA label for the home page in the breadcrumbs"
+	},
+	"theme.docs.breadcrumbs.navAriaLabel": {
+		"message": "Breadcrumbs",
+		"description": "The ARIA label for the breadcrumbs"
+	},
+	"theme.docs.DocCard.categoryDescription": {
+		"message": "{count} mục",
+		"description": "The default description for a category card in the generated index about how many items this category includes"
+	},
+	"theme.docs.versionBadge.label": {
+		"message": "Phiên bản: {versionLabel}"
+	},
+	"theme.CodeBlock.wordWrapToggle": {
+		"message": "Chuyển đổi văn bản xuống dòng",
+		"description": "The title attribute for toggle word wrapping button of code block lines"
+	},
+	"theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+		"message": "Chuyển đổi danh mục thanh bên có thể thu gọn '{label}'",
+		"description": "The ARIA label to toggle the collapsible sidebar category"
+	},
+	"theme.navbar.mobileLanguageDropdown.label": {
+		"message": "Ngôn ngữ",
+		"description": "The label for the mobile language switcher dropdown"
+	},
+	"theme.blog.post.readMoreLabel": {
+		"message": "Đọc thêm về {title}",
+		"description": "The ARIA label for the link to full blog posts from excerpts"
+	},
+	"theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+		"message": "Close navigation bar",
+		"description": "The ARIA label for close button of mobile sidebar"
+	},
+	"theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+		"message": "Toggle navigation bar",
+		"description": "The ARIA label for hamburger menu button of mobile navigation"
+	},
+	"cmfcmf/d-s-l.searchBar.placeholder": {
+		"message": "Nhập từ khóa tìm kiếm...",
+		"description": "Nhập từ khóa tìm kiếm..."
+	},
+	"cmfcmf/d-s-l.searchBar.detachedCancelButtonText": {
+		"message": "Tìm",
+		"description": "Tìm"
 	}
 }

@@ -15,6 +15,7 @@
 		"prettier": "npx prettier --write . --jsx-single-quote true --single-quote true --use-tabs true --tab-width 4 '!**/*.{md}'"
 	},
 	"dependencies": {
+		"@cmfcmf/docusaurus-search-local": "^0.11.0",
 		"@docusaurus/core": "^2.2.0",
 		"@docusaurus/preset-classic": "^2.2.0",
 		"@docusaurus/theme-bootstrap": "^2.0.0-beta.6",

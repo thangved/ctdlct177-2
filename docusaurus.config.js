@@ -8,7 +8,7 @@ const path = require("path");
 module.exports = {
 	title: "CTDLCT177",
 	tagline: "Cấu trúc dữ liệu và giải thuật",
-	url: "https://your-docusaurus-test-site.com",
+	url: "https://ctdl.w5team.com",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -21,8 +21,29 @@ module.exports = {
 		locales: ["vi-VN"],
 	},
 	plugins: [
-		// path.resolve(__dirname, './plugins/2dlive'),
+		// path.resolve(__dirname, "./plugins/2dlive"),
 		path.resolve(__dirname, "./plugins/gads"),
+		[
+			require.resolve("@cmfcmf/docusaurus-search-local"),
+			{
+				indexDocs: true,
+				indexDocSidebarParentCategories: 0,
+
+				indexBlog: true,
+				indexPages: true,
+				language: "vi",
+				style: undefined,
+				maxSearchResults: 8,
+				lunr: {
+					tokenizerSeparator: /[\s\-]+/,
+					k1: 1.2,
+					titleBoost: 5,
+					contentBoost: 1,
+					tagsBoost: 3,
+					parentCategoriesBoost: 2, // Only used when indexDocSidebarParentCategories > 0
+				},
+			},
+		],
 	],
 
 	presets: [
