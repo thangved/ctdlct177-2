@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkctdlct_177_2=self.webpackChunkctdlct_177_2||[]).push([[1713],{3457:t=>{t.exports=JSON.parse('[{"label":"project","permalink":"/blog/tags/project","count":1},{"label":"data structure","permalink":"/blog/tags/data-structure","count":1}]')}}]);

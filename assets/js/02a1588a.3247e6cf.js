@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkctdlct_177_2=self.webpackChunkctdlct_177_2||[]).push([[324],{4786:t=>{t.exports=JSON.parse('{"label":"data structure","permalink":"/blog/tags/data-structure","allTagsPath":"/blog/tags","count":1}')}}]);
