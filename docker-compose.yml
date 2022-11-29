@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-  w5-tools:
+  ctdlct177:
     build: ./
     volumes:
       - app:/app
