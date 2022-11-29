@@ -1,6 +1,10 @@
 # Website
 
 [![CodeFactor](https://www.codefactor.io/repository/github/thangved/ctdlct177-2/badge)](https://www.codefactor.io/repository/github/thangved/ctdlct177-2)
+[![CodeQL](https://github.com/thangved/ctdlct177-2/actions/workflows/codeql.yml/badge.svg)](https://github.com/thangved/ctdlct177-2/actions/workflows/codeql.yml)
+[![Deploy to Firebase Hosting on merge](https://github.com/thangved/ctdlct177-2/actions/workflows/firebase-hosting-merge.yml/badge.svg)](https://github.com/thangved/ctdlct177-2/actions/workflows/firebase-hosting-merge.yml)
+[![Deploy to Firebase Hosting on PR](https://github.com/thangved/ctdlct177-2/actions/workflows/firebase-hosting-pull-request.yml/badge.svg)](https://github.com/thangved/ctdlct177-2/actions/workflows/firebase-hosting-pull-request.yml)
+[![Node.js CI](https://github.com/thangved/ctdlct177-2/actions/workflows/node.js.yml/badge.svg)](https://github.com/thangved/ctdlct177-2/actions/workflows/node.js.yml)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
