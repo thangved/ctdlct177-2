@@ -35,7 +35,7 @@ module.exports = {
 				style: undefined,
 				maxSearchResults: 8,
 				lunr: {
-					tokenizerSeparator: /[\s\-]+/g,
+					tokenizerSeparator: /[\s-]+/,
 					k1: 1.2,
 					titleBoost: 5,
 					contentBoost: 1,
