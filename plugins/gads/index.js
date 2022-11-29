@@ -1,6 +1,6 @@
 const path = require("path");
 
-module.exports = (context, options) => {
+module.exports = (_context, _options) => {
 	return {
 		name: "docusaurus-plugin-gads",
 		getClientModules() {
