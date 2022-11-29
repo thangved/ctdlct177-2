@@ -25,7 +25,7 @@
 		"rehype-katex": "^4",
 		"rehype-truncate": "^1.2.2",
 		"remark-images": "^3.0.0",
-		"remark-math": "^3"
+		"remark-math": "^5"
 	},
 	"browserslist": {
 		"production": [
