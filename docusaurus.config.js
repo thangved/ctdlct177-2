@@ -104,6 +104,11 @@ module.exports = {
 						label: "Tài liệu",
 					},
 					{
+						to: "/blog",
+						label: "Blog",
+						position: "left",
+					},
+					{
 						to: "/docs/algorithm-complexity/intro",
 						label: "Độ phức tạp",
 						position: "right",
