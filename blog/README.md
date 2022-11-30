@@ -4,7 +4,7 @@ title: Giới thiệu dự án
 authors:
   name: Kim Minh Thắng
   title: Quản lý dự án
-  url: https://github.com/thangevd
+  url: https://github.com/thangved
   image_url: https://github.com/thangved.png
 tags: [project, "data structure"]
 ---
