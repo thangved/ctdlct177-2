@@ -22,8 +22,8 @@
 		"clsx": "^1.1.1",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
-		"rehype-katex": "5",
-		"remark-math": "5"
+		"rehype-katex": "^5",
+		"remark-math": "^4"
 	},
 	"browserslist": {
 		"production": [
