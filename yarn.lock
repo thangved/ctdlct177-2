@@ -1321,7 +1321,7 @@
     webpack-merge "^5.8.0"
     webpackbar "^5.0.2"
 
-"@docusaurus/core@2.4.0", "@docusaurus/core@^2.2.0":
+"@docusaurus/core@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@docusaurus/core/-/core-2.4.0.tgz#a12c175cb2e5a7e4582e65876a50813f6168913d"
   integrity sha512-J55/WEoIpRcLf3afO5POHPguVZosKmJEQWKBL+K7TAnfuE7i+Y0NPLlkKtnWCehagGsgTqClfQEexH/UT4kELA==
@@ -1781,15 +1781,15 @@
     use-sync-external-store "^1.2.0"
     utility-types "^3.10.0"
 
-"@docusaurus/theme-live-codeblock@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@docusaurus/theme-live-codeblock/-/theme-live-codeblock-2.2.0.tgz#a507e496a1a74d261beee30ad072e4341310809a"
-  integrity sha512-4XRFxfZGcyqmbLmNbnbZ2ZOsoY7FYCJUZKsYW5yzhZYjmjGg7lkdJH5trt9otUoKBsZopBpPWvcDZwCu1SENYg==
+"@docusaurus/theme-live-codeblock@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/theme-live-codeblock/-/theme-live-codeblock-2.4.0.tgz#9abe9b88d2d7218cc2c5733e99e6cdba4c84621e"
+  integrity sha512-rg+HDWNUvcA0+8DLDJ+4TP5dv5zEgwgrmQmu4hq/sTMbTL1hUBrLCfvSRbX1NQ5zOw+jPhPi740eXwe9XIkmEQ==
   dependencies:
-    "@docusaurus/core" "2.2.0"
-    "@docusaurus/theme-common" "2.2.0"
-    "@docusaurus/theme-translations" "2.2.0"
-    "@docusaurus/utils-validation" "2.2.0"
+    "@docusaurus/core" "2.4.0"
+    "@docusaurus/theme-common" "2.4.0"
+    "@docusaurus/theme-translations" "2.4.0"
+    "@docusaurus/utils-validation" "2.4.0"
     "@philpl/buble" "^0.19.7"
     clsx "^1.2.1"
     fs-extra "^10.1.0"
@@ -8005,9 +8005,9 @@ webpack-sources@^3.2.2, webpack-sources@^3.2.3:
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
 webpack@^5.73.0:
-  version "5.75.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.75.0.tgz#1e440468647b2505860e94c9ff3e44d5b582c152"
-  integrity sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==
+  version "5.76.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.76.1.tgz#7773de017e988bccb0f13c7d75ec245f377d295c"
+  integrity sha512-4+YIK4Abzv8172/SGqObnUjaIHjLEuUasz9EwQj/9xmPPkYJy2Mh03Q/lJfSD3YLzbxy5FeTq5Uw0323Oh6SJQ==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
