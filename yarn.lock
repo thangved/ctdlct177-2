@@ -1321,7 +1321,7 @@
     webpack-merge "^5.8.0"
     webpackbar "^5.0.2"
 
-"@docusaurus/core@2.4.0", "@docusaurus/core@^2.2.0":
+"@docusaurus/core@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@docusaurus/core/-/core-2.4.0.tgz#a12c175cb2e5a7e4582e65876a50813f6168913d"
   integrity sha512-J55/WEoIpRcLf3afO5POHPguVZosKmJEQWKBL+K7TAnfuE7i+Y0NPLlkKtnWCehagGsgTqClfQEexH/UT4kELA==
