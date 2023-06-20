@@ -1,6 +1,5 @@
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const math = require("remark-math");
-const katex = require("rehype-katex");
 const path = require("path");
 
 // With JSDoc @type annotations, IDEs can provide config autocompletion
@@ -8,7 +7,7 @@ const path = require("path");
 module.exports = {
 	title: "CTDLCT177",
 	tagline: "Cấu trúc dữ liệu và giải thuật",
-	url: "https://ctdl.w5team.com",
+	url: "https://ctdl.thangved.com",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -56,7 +55,6 @@ module.exports = {
 					// Please change this to your repo.
 					editUrl: "https://github.com/thangved/datastructure",
 					remarkPlugins: [math],
-					rehypePlugins: [katex],
 				},
 				blog: {
 					showReadingTime: true,
