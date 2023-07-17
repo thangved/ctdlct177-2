@@ -4,7 +4,7 @@
         <title>CTDLCT177 Blog</title>
         <link>https://ctdl.thangved.com/blog</link>
         <description>CTDLCT177 Blog</description>
-        <lastBuildDate>Fri, 14 Jul 2023 12:45:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Jul 2023 03:52:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>vi-VN</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Giới thiệu dự án]]></title>
             <link>https://ctdl.thangved.com/blog/readme</link>
             <guid>https://ctdl.thangved.com/blog/readme</guid>
-            <pubDate>Fri, 14 Jul 2023 12:45:29 GMT</pubDate>
+            <pubDate>Mon, 17 Jul 2023 03:52:18 GMT</pubDate>
             <description><![CDATA[Cấu trúc dữ liệu - CT177 là một dự án của mình thực hiện với mục tiêu chia sẻ kiến thức về môn Cấu trúc dữ liệu và giải thuật.]]></description>
             <content:encoded><![CDATA[<p><strong>Cấu trúc dữ liệu - CT177</strong> là một dự án của mình thực hiện với mục tiêu chia sẻ kiến thức về môn Cấu trúc dữ liệu và giải thuật.</p>]]></content:encoded>
             <category>project</category>
