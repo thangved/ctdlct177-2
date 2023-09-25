@@ -22,7 +22,7 @@
 		"clsx": "^2.0.0",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
-		"rehype-katex": "^6",
+		"rehype-katex": "^7",
 		"remark-math": "^4"
 	},
 	"browserslist": {
